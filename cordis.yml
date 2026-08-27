@@ -1,0 +1,38 @@
+# Dogpet Plugin
+
+一个中华田园犬桌面宠物 Cordis 插件。
+
+## 文件结构
+
+```
+dogpet/
+├── README.md
+├── cordis.yml          # Cordis 插件配置
+├── src/
+│   ├── host.ts         # Host 端：监听 agent 状态
+│   └── client.ts       # Client 端：SVG 宠物渲染
+├── package.json
+└── .gitignore
+```
+
+## 使用方法
+
+将本插件添加到你的 DSH Cordis 配置中：
+
+```yaml
+# cordis.yml
+plugins:
+  - ./plugins/dogpet
+```
+
+或者在 DSH 运行时通过 cordis_define 动态加载。
+
+## 状态说明
+
+- `idle`：宠物正面吐舌头哈气
+- `working`：宠物侧躺四腿顶球旋转
+- `bark`：宠物朝左上角汪汪大叫
+
+## 许可证
+
+MIT
