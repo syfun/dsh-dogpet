@@ -1,0 +1,24 @@
+{
+  "name": "dsh-dogpet",
+  "version": "1.0.0",
+  "description": "🐕 中华田园犬桌面宠物 - A cute Chinese Rural Dog desktop pet plugin for DeepSeek Harness (Cordis)",
+  "main": "src/client.ts",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "desktop-pet",
+    "dog",
+    "中华田园犬",
+    "插件"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/dsh-dogpet.git"
+  }
+}
